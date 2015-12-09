@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica, sans-serif !important;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+#nav {
+  width: 100%;
+  position:static;
+  top:-32px;
+}
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+@media (min-width: 767px) {
+  .navbar-nav.nav-justified > li{
+      float:none;
+  }
+}
+.navbar-nav {
+  margin: 1px 1px;
+}
+
+/* customize nav style */
+.navbar-custom {
+    background-color: #2e2e2e;
+	font-weight:700;
+    text-transform:uppercase;
+    border-width:0;
+}
+.navbar-custom  .navbar-nav>li>a {
+	color: #ddd;
+}
+.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
+	background-color: #000;
+}
+.navbar-custom .dropdown-menu{
+	right:0;
+}
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+
+.navbar-collapse.in { /*3.0.2 bug workaround*/
+    overflow-y: visible;
+}
+
+.navbar-toggle {
+	outline:0;
+}
+
+
+div.hpCarousel {
+  padding-top: 51px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#carousel {
+  height: 500px;
+}
+
+ol.carousel-indicators{
+  z-index: 1;
+}
+
+img {
+  height: 500px;
+}
+
+.carousel-inner > .item > img {
+  width: 55%;
+  margin-left: 23%;
+  padding-top: 7%;
+}
+.carousel-control {
+    width: 0 !important;
+}
+
+.carousel-control.left {
+  margin-left: 7%;
+}
+
+.carousel-control.right{
+  margin-right: 7%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  color: black !important;
+  opacity: 0.9 !important;
+
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  border: 4px solid #000000;
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 100px;
+  padding-top: 2px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  color: black !important;
+}
+
+.carousel-indicators .active {
+  background-color: #222 !important;
+}
+
+div.featured h3 {
+  padding-left:9%;
+  font-size: 3.5em;
+}
+
+div#content {
+  border: 1px solid #000000;
+  width: 100vw;
+  font-size: 1.5em;
+}
+
+a.postTitle {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+
+}
+
+a.postTitle:hover {
+  text-decoration: none;
+  color: #5A5766;
+}
+
+span.date {
+  font-size: 1em;
+}
+
+#homecontent {
+  margin: 20px 0 50px 0;
+
+}
+
+#homecontent .wp {
+   border: 1px solid black;
+   text-align: left;
+   margin-bottom: 1px;
+   width: 80%;
+   height: 175px;
+   padding: 0 20px 0 20px;
+   margin-left: 9%;
+}
+
+div#article {
+  color: black;
+  border: 1px solid #000000;
+  padding-top: 7%;
+  width: 80%;
+  margin-left: 10%;
+  padding-left: 10px;
+  font-size: 1.2em;
+  margin-bottom: 10%;
+  float: left;
+  clear: both;
+}
+
+div.wp p {
+  font-size: 1.3em;
+
+}
+
+div.artTitle {
+  font-size: 2em;
+  font-weight: 700;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+.s0 {
+  padding-bottom: 15%;
+}
+
+#map {
+  width: 80%;
+  height: 500px;
+	margin-left: 10%;
+	padding: 15px;
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:5%;
+   z-index:100;
+   background: #1A936F;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+  /*background-color: #88D498;*/
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
