@@ -1,0 +1,51 @@
+.slider-size {
+  height: 585px; /* This is your slider height */
+}
+
+.carousel {
+
+  width:100%;
+  margin:0 auto; /* center your carousel if other than 100% */
+  margin-top: 50px;
+}
+
+.carousel-caption {
+  font-size: 3em !important;
+  font-weight: bold !important;
+}
+
+.item {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%) !important;
+  background-image: -webkit-linear-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%) !important;
+  background-image: -webkit-gradient(to right, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%) !important;
+}
+
+.carousel-control.left {
+  background-image: linear-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%) !important;
+  background-image: -webkit-linear-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%) !important;
+  background-image: -webkit-gradient(to left, rgba(0,0,0,0) 0, rgba(0,0,0,0) 100%) !important;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+  .slider-size {
+    height: 300px !important;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .slider-size {
+      height: 450px !important;
+    }
+}
